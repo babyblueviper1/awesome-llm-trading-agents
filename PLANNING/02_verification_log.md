@@ -74,7 +74,64 @@ The Phase 0 web research was the primary verification pass; sources for each ent
 | awesome-llm-powered-agent | github.com/hyp1231/awesome-llm-powered-agent | 2026-05-14 | Grandparent category (LLM agents generally) |
 | awesome-quant | github.com/wilsonfreitas/awesome-quant | 2026-05-14 | Plumbing-layer reference |
 
-## Dropped (n = 0 in Phase 2)
+## Phase 3 expansion — additional verified entries (n = +27, total = 62)
+
+### 01-frameworks (+ 2 → 7 total)
+| Slug | Sources | Verified | Notes |
+|---|---|---|---|
+| tradinggoose | github.com/TradingGoose/TradingGoose-Studio; github.com/TradingGoose/TradingGoose.github.io | 2026-05-14 | AGPL-3.0 licensing called out |
+| alphagen | github.com/RL-MLDM/alphagen; KDD 2023 ADS | 2026-05-14 | RL alpha mining with LLM sidechannel |
+
+### 02-single-agent (+ 4 → 8 total)
+| Slug | Sources | Verified | Notes |
+|---|---|---|---|
+| fino1 | arXiv 2502.08127; github.com/The-FinAI/Fino1; HF Fino1-8B | 2026-05-14 | Reasoning LLM, not trader |
+| dianjin-r1 | arXiv 2504.15716; github.com/aliyun/qwen-dianjin | 2026-05-14 | Alibaba Cloud; Chinese-finance reasoning |
+| agentar-fin-r1 | arXiv 2507.16802; HF papers; github.com/antgroup/Finova | 2026-05-14 | Ant Group; ships with Finova benchmark |
+| bloomberggpt | arXiv 2303.17564; bloomberg.com press release | 2026-05-14 | Closed-weight; historical landmark |
+
+### 03-papers (+ 9 → 17 total)
+| Slug | Sources | Verified | Notes |
+|---|---|---|---|
+| alphaforge | arXiv 2406.18394; github.com/DulyHao/AlphaForge; AAAI 2025 | 2026-05-14 | Formulaic alpha-mining baseline |
+| survey-finapps-2024 | arXiv 2406.11903 | 2026-05-14 | Broad FinLLM survey |
+| survey-llm-finance-li | arXiv 2311.10723 | 2026-05-14 | Earliest of the three LLM-finance surveys |
+| survey-finllms-2024 | arXiv 2402.02315 | 2026-05-14 | Chronological techniques framing |
+| new-quant-survey | arXiv 2510.05533 | 2026-05-14 | Closest in scope to this list |
+| llm-investment-management-icaif25 | dl.acm.org 10.1145/3768292.3770387; SSRN 5447274 | 2026-05-14 | ACM ICAIF 2025 |
+| reflexion | arXiv 2303.11366; github.com/noahshinn/reflexion; OpenReview | 2026-05-14 | General-agent foundation (NeurIPS 2023) |
+| chatgpt-stock-forecast | arXiv 2304.07619 | 2026-05-14 | Lopez-Lira & Tang empirical study |
+| marketsenseai | arXiv 2401.03737; Springer link | 2026-05-14 | GPT-4 stock selection |
+
+### 04-datasets (+ 4 → 6 total)
+| Slug | Sources | Verified | Notes |
+|---|---|---|---|
+| fnspid | arXiv 2402.06698; github; HF datasets; KDD 2024 | 2026-05-14 | 4775 SP500 / 1999–2023 |
+| financial-phrasebank | HF takala/financial_phrasebank; OpenFinLLM leaderboard docs | 2026-05-14 | 4840 sentences, finance-knowledgeable annotators |
+| finqa | arXiv 2109.00122; github.com/czyssrs/FinQA; EMNLP 2021 | 2026-05-14 | 8281 expert QA over SP500 10-Ks |
+| convfinqa | arXiv 2210.03849; github.com/czyssrs/ConvFinQA; EMNLP 2022 | 2026-05-14 | Multi-turn extension of FinQA |
+
+### 05-benchmarks (+ 2 → 7 total)
+| Slug | Sources | Verified | Notes |
+|---|---|---|---|
+| finova | github.com/antgroup/Finova; arXiv 2507.16802 | 2026-05-14 | Compliance-focused; curator/benchmark conflict noted |
+| openfin-leaderboard | arXiv 2501.10963 | 2026-05-14 | LF + HF leaderboard |
+
+### 06-backtesting (+ 4 → 9 total)
+| Slug | Sources | Verified | Notes |
+|---|---|---|---|
+| openbb | github.com/OpenBB-finance/OpenBB; openbb.co | 2026-05-14 | Data platform, MCP-friendly |
+| pyportfolioopt | github.com/PyPortfolio/PyPortfolioOpt | 2026-05-14 | Classical portfolio optimisation |
+| riskfolio-lib | github.com/dcajasn/Riskfolio-Lib | 2026-05-14 | CVaR / drawdown-aware |
+| skfolio | github.com/skfolio/skfolio; skfolio.org docs | 2026-05-14 | Native CPCV implementation |
+
+### 07-simulators (+ 2 → 3 total)
+| Slug | Sources | Verified | Notes |
+|---|---|---|---|
+| pymarketsim | ACM 10.1145/3677052.3698639; strategicreasoning.org | 2026-05-14 | ICAIF 2024 |
+| jax-lob | arXiv 2308.13289 | 2026-05-14 | ICAIF 2023; GPU LOB simulator |
+
+## Dropped (n = 0 in Phases 2–3)
 
 None yet. Candidates for Phase 3 drop review: any project whose canonical URL 404s, any preprint with no public code 12+ months after submission and no follow-up, and any project that turns out to be a thin wrapper of an entry already on the list.
 

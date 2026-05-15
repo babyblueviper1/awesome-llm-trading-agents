@@ -1,0 +1,27 @@
+slug: openbb
+title: OpenBB Platform
+type: tool
+category: 06-backtesting
+subcategory: data-platform
+url: https://github.com/OpenBB-finance/OpenBB
+maintainer: OpenBB Finance
+year: 2020
+description: >-
+  Open-source financial data platform — equities, fundamentals, derivatives, fixed income,
+  macro, crypto — with adapters across many vendors and an explicit "AI agents as a consumer"
+  design (MCP servers, function-calling integrations).
+note: >-
+  Not a backtester, but listed here because data ingestion is where most LLM trading agents
+  silently lose: stale prices, look-ahead-bias-inducing adjustments, and vendor-specific
+  point-in-time semantics. OpenBB makes the data layer auditable. Use it to ensure your agent
+  doesn't accidentally see tomorrow's revision of yesterday's price.
+tags:
+  - data-platform
+  - mcp
+  - openbb
+verification:
+  status: verified
+  sources:
+    - https://github.com/OpenBB-finance/OpenBB
+    - https://openbb.co/
+  verified_on: "2026-05-14"

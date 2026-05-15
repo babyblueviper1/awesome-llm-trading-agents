@@ -1,0 +1,33 @@
+slug: llm-investment-management-icaif25
+title: "Large Language Model Agents for Investment Management: Foundations, Benchmarks, and Research Frontiers"
+type: paper
+category: 03-papers
+subcategory: surveys
+url: https://dl.acm.org/doi/10.1145/3768292.3770387
+authors:
+  - Preetha Saha
+  - Jingrao Lyu
+  - Arnav Saxena
+  - Tianjiao Zhao
+  - Dhagash Mehta
+year: 2025
+venue: ACM ICAIF 2025
+description: >-
+  Survey-and-frontiers paper on LLM agents specifically for investment management — portfolio
+  optimisation, risk management, information retrieval, and automated strategy generation.
+  Reviews emerging evaluation frameworks and identifies open challenges for real-world deployment.
+note: >-
+  Bridges the survey literature (broad LLM-in-finance) and the LLM-agent literature (broad
+  agent capabilities). Useful for the "research frontiers" framing — explicitly enumerates
+  what is *not yet* solved (robustness, explainability, deployment), which is hard to extract
+  from the more enthusiastic technique-survey papers.
+tags:
+  - survey
+  - investment-management
+  - icaif
+verification:
+  status: verified
+  sources:
+    - https://dl.acm.org/doi/10.1145/3768292.3770387
+    - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5447274
+  verified_on: "2026-05-14"

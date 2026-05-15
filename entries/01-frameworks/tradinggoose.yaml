@@ -1,0 +1,30 @@
+slug: tradinggoose
+title: TradingGoose
+type: framework
+category: 01-frameworks
+subcategory: multi-agent
+url: https://github.com/TradingGoose/TradingGoose-Studio
+year: 2025
+description: >-
+  Multi-agent LLM trading framework targeting both individual stock analysis and portfolio
+  management. Includes a Portfolio Manager agent that ingests an Alpaca account snapshot and
+  emits ticker-level orders with position sizing, plus ~15 specialised analysis/research agents.
+note: >-
+  Practically-oriented sibling to TradingAgents — closer to live-broker integration (Alpaca)
+  than to academic publication. AGPL-3.0 licensing materially affects redistribution; downstream
+  users intending to commercialise should read the license terms carefully. As with any
+  live-trading LLM stack, the question worth pressing first is "what evaluation supports its
+  trading decisions?" — Alpaca paper-trading and out-of-sample backtests are necessary
+  pre-conditions, not optional.
+tags:
+  - multi-agent
+  - alpaca
+  - portfolio
+  - agpl
+verification:
+  status: verified
+  sources:
+    - https://github.com/TradingGoose/TradingGoose-Studio
+    - https://github.com/TradingGoose/TradingGoose.github.io
+    - https://tradinggoose.github.io/
+  verified_on: "2026-05-14"

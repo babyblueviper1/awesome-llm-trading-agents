@@ -1,0 +1,33 @@
+slug: financial-phrasebank
+title: Financial PhraseBank (FPB)
+type: dataset
+category: 04-datasets
+subcategory: sentiment
+url: https://huggingface.co/datasets/takala/financial_phrasebank
+authors:
+  - Pekka Malo
+  - Ankur Sinha
+  - Pekka Korhonen
+  - Jyrki Wallenius
+  - Pyry Takala
+year: 2014
+venue: Journal of the Association for Information Science and Technology
+description: >-
+  Benchmark sentiment-analysis dataset of 4,840 English-language sentences from financial news
+  about OMX Helsinki listed companies, annotated by 16 finance-knowledgeable annotators for
+  expected stock-price impact (positive / negative / neutral).
+note: >-
+  Classic NLP benchmark, predates the LLM era — relevant here because many LLM-trading-agent
+  sentiment modules either use FPB-trained backbones or are evaluated against FPB. Be cautious
+  about claims that an LLM "achieves high accuracy on FPB" implying trading skill; the FPB
+  label is *expected impact*, not *realised return*.
+tags:
+  - dataset
+  - sentiment
+  - benchmark
+verification:
+  status: verified
+  sources:
+    - https://huggingface.co/datasets/takala/financial_phrasebank
+    - https://finllm-leaderboard.readthedocs.io/en/latest/datasets/bloomberggpt/fpb.html
+  verified_on: "2026-05-14"

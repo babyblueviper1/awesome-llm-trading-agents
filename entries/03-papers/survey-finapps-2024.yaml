@@ -1,0 +1,25 @@
+slug: survey-finapps-2024
+title: "A Survey of Large Language Models for Financial Applications: Progress, Prospects and Challenges"
+type: paper
+category: 03-papers
+subcategory: surveys
+url: https://arxiv.org/abs/2406.11903
+paper_url: https://arxiv.org/abs/2406.11903
+year: 2024
+venue: arXiv preprint
+description: >-
+  Survey of LLMs across financial applications, organising the literature by application area
+  (linguistic tasks, sentiment, time series, reasoning, agent-based modeling) and by methodology
+  (textual analysis, knowledge bases, forecasting, augmentation, planning, decisioning).
+note: >-
+  Useful entry-point survey for the broader FinLLM landscape rather than LLM-trading-agents
+  specifically. Includes a curated collection of datasets and model assets that overlaps with
+  this list's datasets/ and benchmarks/ sections.
+tags:
+  - survey
+  - finllm
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2406.11903
+  verified_on: "2026-05-14"

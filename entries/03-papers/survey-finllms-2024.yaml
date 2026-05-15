@@ -1,0 +1,26 @@
+slug: survey-finllms-2024
+title: "A Survey of Large Language Models in Finance (FinLLMs)"
+type: paper
+category: 03-papers
+subcategory: surveys
+url: https://arxiv.org/abs/2402.02315
+paper_url: https://arxiv.org/abs/2402.02315
+year: 2024
+venue: arXiv preprint
+description: >-
+  Survey covering the history of FinLLMs from pre-trained LMs through GPT-series and selected
+  open-source FinLLMs, comparing five technical approaches and summarising six benchmark tasks
+  and datasets.
+note: >-
+  Complementary to the other two LLM-in-finance surveys on this list. Strongest contribution is
+  the chronological-techniques framing, which is helpful for placing newer entries (Fin-R1,
+  Fino1, DianJin-R1) in context.
+tags:
+  - survey
+  - finllm
+  - historical
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2402.02315
+  verified_on: "2026-05-14"

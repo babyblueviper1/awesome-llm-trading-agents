@@ -1,0 +1,32 @@
+slug: chatgpt-stock-forecast
+title: "Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models"
+type: paper
+category: 03-papers
+subcategory: empirical-evaluation
+url: https://arxiv.org/abs/2304.07619
+paper_url: https://arxiv.org/abs/2304.07619
+authors:
+  - Alejandro Lopez-Lira
+  - Yuehua Tang
+year: 2023
+venue: arXiv preprint
+description: >-
+  Empirical study testing whether ChatGPT scores on news headlines predict subsequent stock
+  returns, using post-cutoff headlines specifically to mitigate look-ahead bias. Reports
+  significant predictive power that scales with model size and is stronger for small stocks
+  and negative news.
+note: >-
+  Important early evidence that *plain ChatGPT on news headlines* has measurable predictive
+  signal. Two caveats: (1) reported Sharpe declines sharply as the sample window extends from
+  2021Q4 (6.54) through 2024 (1.22), consistent with markets adapting to widespread LLM
+  adoption; (2) the result is a *sentiment-to-return* signal, not a full trading system.
+tags:
+  - empirical
+  - chatgpt
+  - sentiment
+  - look-ahead-mitigation
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2304.07619
+  verified_on: "2026-05-14"

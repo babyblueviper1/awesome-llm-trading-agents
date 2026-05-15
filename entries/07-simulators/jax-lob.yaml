@@ -1,0 +1,28 @@
+slug: jax-lob
+title: JAX-LOB
+type: environment
+category: 07-simulators
+subcategory: limit-order-book
+url: https://arxiv.org/abs/2308.13289
+paper_url: https://arxiv.org/abs/2308.13289
+year: 2023
+venue: ACM ICAIF 2023
+description: >-
+  GPU-accelerated limit-order-book simulator implemented in JAX, designed to unlock large-scale
+  reinforcement learning for trading by running many parallel LOB simulations efficiently on
+  modern hardware.
+note: >-
+  Right tool when training-loop throughput is the bottleneck and you accept JAX as a dependency.
+  Less mature ecosystem than ABIDES; pick JAX-LOB for the RL throughput win, pick ABIDES for
+  the richer agent-population modelling. Verify against your own setup — GPU-LOB performance
+  claims are highly dependent on agent count and event density.
+tags:
+  - simulator
+  - jax
+  - gpu
+  - rl
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2308.13289
+  verified_on: "2026-05-14"

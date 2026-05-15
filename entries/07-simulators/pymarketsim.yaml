@@ -1,0 +1,28 @@
+slug: pymarketsim
+title: PyMarketSim
+type: environment
+category: 07-simulators
+subcategory: limit-order-book
+url: https://dl.acm.org/doi/10.1145/3677052.3698639
+paper_url: https://dl.acm.org/doi/10.1145/3677052.3698639
+maintainer: Strategic Reasoning Group (University of Michigan)
+year: 2024
+venue: ACM ICAIF 2024
+description: >-
+  Agent-based financial-market simulation environment for training and evaluating trading
+  agents with deep RL. Models private valuations, asymmetric information, and a flexible limit
+  order book; supports both single-agent and multi-agent RL settings.
+note: >-
+  Newer alternative / complement to ABIDES with a stronger emphasis on game-theoretic
+  equilibria across populations of learned agents. Mostly used by the RL trading community
+  today — wiring LLM agents into PyMarketSim is an open opportunity worth doing right.
+tags:
+  - simulator
+  - limit-order-book
+  - rl
+verification:
+  status: verified
+  sources:
+    - https://dl.acm.org/doi/10.1145/3677052.3698639
+    - https://strategicreasoning.org/a-financial-market-simulation-environment-for-trading-agents-using-deep-reinforcement-learning/
+  verified_on: "2026-05-14"

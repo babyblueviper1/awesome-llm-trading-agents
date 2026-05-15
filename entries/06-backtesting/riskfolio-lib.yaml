@@ -1,0 +1,26 @@
+slug: riskfolio-lib
+title: Riskfolio-Lib
+type: tool
+category: 06-backtesting
+subcategory: portfolio-optimisation
+url: https://github.com/dcajasn/Riskfolio-Lib
+maintainer: Dany Cajas
+year: 2020
+description: >-
+  Python library for portfolio optimisation and quantitative strategic asset allocation built
+  on CVXPY. Broader risk-measure coverage than PyPortfolioOpt (CVaR, EVaR, drawdown-based
+  measures, hierarchical methods).
+note: >-
+  Pick over PyPortfolioOpt when the LLM agent's risk view requires a non-variance risk measure
+  (drawdown control, tail-risk targeting). CVXPY backend means convergence guarantees are
+  inherited from the underlying solver — if the optimiser is failing silently in your stack,
+  inspect the CVXPY status first.
+tags:
+  - portfolio
+  - cvar
+  - cvxpy
+verification:
+  status: verified
+  sources:
+    - https://github.com/dcajasn/Riskfolio-Lib
+  verified_on: "2026-05-14"

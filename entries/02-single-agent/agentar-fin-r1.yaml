@@ -1,0 +1,31 @@
+slug: agentar-fin-r1
+title: Agentar-Fin-R1
+type: framework
+category: 02-single-agent
+subcategory: reasoning-llm
+url: https://arxiv.org/abs/2507.16802
+paper_url: https://arxiv.org/abs/2507.16802
+maintainer: Ant Group
+year: 2025
+description: >-
+  Series of 8B and 32B financial LLMs from Ant Group built on Qwen3, focused on financial-agent
+  reasoning and compliance verification. Introduces the Finova benchmark (agent-level financial
+  tasks) and a multi-layered trustworthiness assurance training pipeline.
+note: >-
+  The strongest signal in this family is *industrial* — Ant Group has direct skin in the
+  financial-compliance game, which makes their evaluation choices (Finova in particular) worth
+  taking seriously. As with all such releases, distinguish "performance on the curator's own
+  benchmark" from "performance on an independently-held benchmark" — Finova is the curator's
+  benchmark.
+tags:
+  - reasoning
+  - qwen3
+  - ant-group
+  - compliance
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2507.16802
+    - https://huggingface.co/papers/2507.16802
+    - https://github.com/antgroup/Finova
+  verified_on: "2026-05-14"

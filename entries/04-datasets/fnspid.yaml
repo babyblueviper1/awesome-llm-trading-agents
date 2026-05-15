@@ -1,0 +1,35 @@
+slug: fnspid
+title: FNSPID (Financial News and Stock Price Integration Dataset)
+type: dataset
+category: 04-datasets
+subcategory: news-and-prices
+url: https://github.com/Zdong104/FNSPID_Financial_News_Dataset
+paper_url: https://arxiv.org/abs/2402.06698
+authors:
+  - Zihan Dong
+  - Xinyu Fan
+  - Zhiyuan Peng
+year: 2024
+venue: KDD 2024
+description: >-
+  Aligned financial-news + stock-price corpus covering 4,775 S&P 500 companies from 1999–2023
+  with ~29.7M price rows and ~15.7M news rows from four news sources, plus a news-content
+  scraper for replication.
+note: >-
+  Among the larger public news-price aligned datasets and one of the better-documented; KDD
+  2024 acceptance is a reasonable quality signal. Note the universe (S&P 500 only) and the time
+  window (1999–2023) — anything published in 2024+ using FNSPID is using data that overlaps the
+  training cutoff of every frontier LLM, so look-ahead-bias mitigations are essential.
+tags:
+  - dataset
+  - news
+  - prices
+  - sp500
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2402.06698
+    - https://github.com/Zdong104/FNSPID_Financial_News_Dataset
+    - https://huggingface.co/datasets/Zihan1004/FNSPID
+    - https://dl.acm.org/doi/10.1145/3637528.3671629
+  verified_on: "2026-05-14"

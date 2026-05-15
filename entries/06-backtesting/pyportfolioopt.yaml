@@ -1,0 +1,23 @@
+slug: pyportfolioopt
+title: PyPortfolioOpt
+type: tool
+category: 06-backtesting
+subcategory: portfolio-optimisation
+url: https://github.com/PyPortfolio/PyPortfolioOpt
+year: 2018
+description: >-
+  Python library for portfolio optimisation: classical mean-variance / efficient frontier,
+  Black-Litterman, shrinkage, and Hierarchical Risk Parity. Modular API so individual components
+  can be swapped without reimplementing the framework.
+note: >-
+  Standard "I have a vector of expected returns, give me a portfolio" library — useful as a
+  post-processing layer for any LLM trading agent whose output is *which assets to hold*. Be
+  honest that the optimiser inherits all of the bias of the expected-return estimates fed to it.
+tags:
+  - portfolio
+  - optimisation
+verification:
+  status: verified
+  sources:
+    - https://github.com/PyPortfolio/PyPortfolioOpt
+  verified_on: "2026-05-14"

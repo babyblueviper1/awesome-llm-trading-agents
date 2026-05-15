@@ -1,0 +1,26 @@
+slug: openfin-leaderboard
+title: Open FinLLM Leaderboard
+type: benchmark
+category: 05-benchmarks
+subcategory: leaderboard
+url: https://arxiv.org/abs/2501.10963
+paper_url: https://arxiv.org/abs/2501.10963
+year: 2025
+venue: arXiv preprint
+description: >-
+  Open leaderboard collaboration (with the Linux Foundation and Hugging Face) that integrates
+  FinBen and FinanceBench into a unified, continuously-updated evaluation surface for financial
+  LLMs across a wide spectrum of tasks.
+note: >-
+  Useful for tracking comparative FinLLM performance over time without depending on a single
+  paper's snapshot. As with all leaderboards, treat the headline ranking as one input —
+  contamination, test-set leakage, and task selection all bias what you see at the top.
+tags:
+  - benchmark
+  - leaderboard
+  - hf
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2501.10963
+  verified_on: "2026-05-14"

@@ -1,0 +1,39 @@
+slug: bloomberggpt
+title: BloombergGPT
+type: paper
+category: 02-single-agent
+subcategory: finllm
+url: https://arxiv.org/abs/2303.17564
+paper_url: https://arxiv.org/abs/2303.17564
+authors:
+  - Shijie Wu
+  - Ozan Irsoy
+  - Steven Lu
+  - Vadim Dabravolski
+  - Mark Dredze
+  - Sebastian Gehrmann
+  - Prabhanjan Kambadur
+  - David Rosenberg
+  - Gideon Mann
+maintainer: Bloomberg
+year: 2023
+venue: arXiv preprint
+description: >-
+  50B-parameter language model trained on 363B tokens of Bloomberg financial data plus 345B
+  tokens of general-purpose text — the first widely-cited large financial LLM. The model itself
+  is not released; the paper documents the training mix, architecture, and benchmark results.
+note: >-
+  Historical landmark but closed-weight. Reproduction is impossible without Bloomberg-internal
+  data, which is precisely the gap that the FinGPT / FinMA / Fin-R1 lineage of open-weight
+  FinLLMs was built to close. Cite for context; for actual use in your LLM agent, prefer an
+  open-weight model.
+tags:
+  - finllm
+  - closed-weight
+  - historical
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2303.17564
+    - https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/
+  verified_on: "2026-05-14"

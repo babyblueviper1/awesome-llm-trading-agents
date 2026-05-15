@@ -1,0 +1,33 @@
+slug: finqa
+title: FinQA
+type: dataset
+category: 04-datasets
+subcategory: numerical-qa
+url: https://github.com/czyssrs/FinQA
+paper_url: https://arxiv.org/abs/2109.00122
+authors:
+  - Zhiyu Chen
+  - et al.
+year: 2021
+venue: EMNLP 2021
+description: >-
+  Large-scale expert-annotated QA dataset over S&P 500 earnings reports — 8,281 QA pairs
+  requiring numerical reasoning that combines tabular and unstructured-text evidence, with
+  fully-annotated gold reasoning programs for explainability.
+note: >-
+  The canonical financial numerical-reasoning benchmark. Strong FinQA performance is a
+  prerequisite, not a substitute, for trading skill — a model that cannot read a 10-K
+  numerically cannot reason about fundamentals, but reading a 10-K numerically does not imply
+  trading edge.
+tags:
+  - dataset
+  - qa
+  - numerical-reasoning
+  - 10-k
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2109.00122
+    - https://github.com/czyssrs/FinQA
+    - https://aclanthology.org/2021.emnlp-main.300/
+  verified_on: "2026-05-14"

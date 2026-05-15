@@ -1,0 +1,27 @@
+slug: alphaforge
+title: "AlphaForge: A Framework to Mine and Dynamically Combine Formulaic Alpha Factors"
+type: paper
+category: 03-papers
+subcategory: alpha-mining
+url: https://arxiv.org/abs/2406.18394
+paper_url: https://arxiv.org/abs/2406.18394
+year: 2024
+venue: AAAI 2025
+description: >-
+  Two-stage formulaic-alpha framework — a generative-predictive neural network mines candidate
+  factors, then a combination model dynamically reweights them based on recent temporal
+  performance rather than using fixed weights.
+note: >-
+  Not an LLM trading agent, but cited frequently by LLM-alpha-mining work and worth knowing as
+  the contemporary baseline in the formulaic-alpha lineage. Open implementation available at
+  github.com/DulyHao/AlphaForge.
+tags:
+  - alpha-mining
+  - aaai
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2406.18394
+    - https://github.com/DulyHao/AlphaForge
+    - https://ojs.aaai.org/index.php/AAAI/article/view/33365
+  verified_on: "2026-05-14"

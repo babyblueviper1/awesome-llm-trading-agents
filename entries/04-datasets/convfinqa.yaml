@@ -1,0 +1,32 @@
+slug: convfinqa
+title: ConvFinQA
+type: dataset
+category: 04-datasets
+subcategory: numerical-qa
+url: https://github.com/czyssrs/ConvFinQA
+paper_url: https://arxiv.org/abs/2210.03849
+authors:
+  - Zhiyu Chen
+  - et al.
+year: 2022
+venue: EMNLP 2022
+description: >-
+  Conversational extension of FinQA — 3,037 training, 421 dev, 434 test multi-turn dialogue
+  examples requiring chains of numerical reasoning over financial reports across conversation
+  turns rather than single-shot.
+note: >-
+  Probes the same skill as FinQA in the more realistic *conversational* setting that LLM agents
+  actually face. As with FinQA, top scores here are necessary but not sufficient for trading
+  skill.
+tags:
+  - dataset
+  - qa
+  - conversational
+  - numerical-reasoning
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2210.03849
+    - https://github.com/czyssrs/ConvFinQA
+    - https://aclanthology.org/2022.emnlp-main.421/
+  verified_on: "2026-05-14"

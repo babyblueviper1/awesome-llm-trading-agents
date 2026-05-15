@@ -1,0 +1,28 @@
+slug: finova
+title: Finova
+type: benchmark
+category: 05-benchmarks
+subcategory: agent-decision-making
+url: https://github.com/antgroup/Finova
+maintainer: Ant Group
+year: 2025
+description: >-
+  Benchmark from Ant Group focused on the core capabilities of financial intelligent agents
+  and challenging financial tasks — evaluates agent task performance, complex reasoning, and
+  safety / compliance detection.
+note: >-
+  Released alongside the Agentar-Fin-R1 paper. The compliance/safety dimension is its
+  differentiator: most other LLM-trading benchmarks score only on returns / accuracy and ignore
+  the "did the agent do something a regulator would care about" question. Note the curator =
+  benchmark designer = Agentar-Fin-R1 author conflict of interest and look for independent
+  replication.
+tags:
+  - benchmark
+  - compliance
+  - ant-group
+verification:
+  status: verified
+  sources:
+    - https://github.com/antgroup/Finova
+    - https://arxiv.org/abs/2507.16802
+  verified_on: "2026-05-14"

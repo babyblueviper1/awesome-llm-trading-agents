@@ -1,0 +1,30 @@
+slug: fino1
+title: Fino1 / Fin-o1
+type: framework
+category: 02-single-agent
+subcategory: reasoning-llm
+url: https://github.com/The-FinAI/Fino1
+paper_url: https://arxiv.org/abs/2502.08127
+maintainer: The-FinAI
+year: 2025
+description: >-
+  Reasoning-enhanced financial LLM built on Llama-3.1-8B-Instruct via CoT fine-tuning on the
+  FinCoT corpus (distilled from seven QA datasets with a three-stage pipeline) and then RL.
+  Reports a consistent ~10% gain on financial reasoning tasks over the base model.
+note: >-
+  Same caveat as Fin-R1 — Fino1 is a financial *reasoning* model, not a trading agent. The
+  paper's most useful finding is that general reasoning-enhanced models (including DeepSeek-R1)
+  *fail to generalise to finance without domain-specific data*, and that GRPO yields gains
+  where PPO and DPO do not. A backbone candidate for finance-aware LLM agents.
+tags:
+  - reasoning
+  - llama
+  - rl
+  - grpo
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2502.08127
+    - https://github.com/The-FinAI/Fino1
+    - https://huggingface.co/TheFinAI/Fino1-8B
+  verified_on: "2026-05-14"

@@ -1,0 +1,24 @@
+slug: new-quant-survey
+title: "The New Quant: A Survey of Large Language Models in Financial Prediction and Trading"
+type: paper
+category: 03-papers
+subcategory: surveys
+url: https://arxiv.org/abs/2510.05533
+paper_url: https://arxiv.org/abs/2510.05533
+year: 2025
+venue: arXiv preprint
+description: >-
+  Survey scoped specifically to *equity return prediction and trading*, synthesising 50+ primary
+  studies and several domain surveys. The narrowest-scope of the LLM-in-finance surveys on this list.
+note: >-
+  Closest in scope to this directory itself. Worth reading alongside it — they cover similar
+  ground from a survey-paper perspective rather than a curated-list perspective. If you find an
+  entry here that the survey discusses critically, take both views into account.
+tags:
+  - survey
+  - trading
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2510.05533
+  verified_on: "2026-05-14"

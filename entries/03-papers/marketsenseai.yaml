@@ -1,0 +1,29 @@
+slug: marketsenseai
+title: "MarketSenseAI: GPT-4-based stock selection with CoT and ICL"
+type: paper
+category: 03-papers
+subcategory: empirical-evaluation
+url: https://arxiv.org/abs/2401.03737
+paper_url: https://arxiv.org/abs/2401.03737
+year: 2024
+venue: Neural Computing and Applications (Springer)
+description: >-
+  GPT-4-based framework for stock selection that integrates chain-of-thought and in-context
+  learning over market trends, news, fundamentals, and macroeconomic factors. Reports
+  excess-alpha results on an S&P 100 universe over a 15-month evaluation window.
+note: >-
+  Among the more carefully-framed single-LLM trading papers — explicitly distinguishes signal
+  generation from execution and provides ablations. Headline returns are eye-catching;
+  inspect the section on transaction costs and the universe size before generalising. Useful
+  comparison point for any multi-agent framework claiming to outperform "the LLM alone".
+tags:
+  - gpt-4
+  - cot
+  - stock-selection
+  - sp100
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2401.03737
+    - https://link.springer.com/article/10.1007/s00521-024-10613-4
+  verified_on: "2026-05-14"

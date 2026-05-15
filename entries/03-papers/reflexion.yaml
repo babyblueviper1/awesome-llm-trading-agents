@@ -1,0 +1,38 @@
+slug: reflexion
+title: "Reflexion: Language Agents with Verbal Reinforcement Learning"
+type: paper
+category: 03-papers
+subcategory: agent-foundations
+url: https://arxiv.org/abs/2303.11366
+paper_url: https://arxiv.org/abs/2303.11366
+authors:
+  - Noah Shinn
+  - Federico Cassano
+  - Edward Berman
+  - Ashwin Gopinath
+  - Karthik Narasimhan
+  - Shunyu Yao
+year: 2023
+venue: NeurIPS 2023
+description: >-
+  General-purpose LLM-agent framework where the agent reflects verbally on task feedback and
+  maintains an episodic memory of those reflections instead of updating weights. The
+  conceptual ancestor of "verbal reinforcement" components in FinCon and other multi-agent
+  trading systems.
+note: >-
+  Not finance-specific, but foundational for the multi-agent trading lineage. If you read one
+  *general agent* paper before reading the finance-specific multi-agent work on this list,
+  read Reflexion — it is what FinCon and several others build on when they call their feedback
+  mechanism "verbal reinforcement".
+tags:
+  - agent
+  - reflection
+  - memory
+  - foundational
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2303.11366
+    - https://github.com/noahshinn/reflexion
+    - https://openreview.net/forum?id=vAElhFcKW6
+  verified_on: "2026-05-14"

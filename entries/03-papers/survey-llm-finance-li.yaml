@@ -1,0 +1,27 @@
+slug: survey-llm-finance-li
+title: "Large Language Models in Finance: A Survey"
+type: paper
+category: 03-papers
+subcategory: surveys
+url: https://arxiv.org/abs/2311.10723
+paper_url: https://arxiv.org/abs/2311.10723
+authors:
+  - Yinheng Li
+year: 2023
+venue: ACM ICAIF 2023
+description: >-
+  Practitioner-oriented survey of LLMs in finance — distinguishes zero-/few-shot adaptation,
+  domain fine-tuning, and from-scratch training, and proposes a decision framework for choosing
+  between them under data / compute / performance constraints.
+note: >-
+  The earliest of the three major LLM-in-finance surveys cited on this list, and the one with
+  the most explicitly *engineering-decision* framing. Still useful as a "where do I start"
+  reference even though 2024–25 model releases have moved several decisions since.
+tags:
+  - survey
+  - decision-framework
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2311.10723
+  verified_on: "2026-05-14"

@@ -1,0 +1,28 @@
+slug: alphagen
+title: AlphaGen
+type: framework
+category: 01-frameworks
+subcategory: alpha-mining
+url: https://github.com/RL-MLDM/alphagen
+maintainer: MLDM Lab, IIP, ICT, CAS
+year: 2023
+venue: KDD 2023 (ADS Track)
+description: >-
+  Reinforcement-learning framework that generates synergistic *sets* of formulaic alpha factors
+  for quantitative investment. Built around Qlib for data ingestion and includes an
+  `alphagen_llm` module with LLM client abstractions and prompts for LLM-based alpha generation.
+note: >-
+  Not primarily an LLM trading agent — it's an RL-driven alpha-factor generator with an LLM
+  side-channel. Included because the LLM-alpha-mining direction is increasingly cited as an
+  alternative to LLM-decides-trades, and AlphaGen is the cleanest open reference for the
+  RL-formulaic-alpha lineage that LLM variants extend.
+tags:
+  - rl
+  - alpha-mining
+  - qlib
+  - llm-tooling
+verification:
+  status: verified
+  sources:
+    - https://github.com/RL-MLDM/alphagen
+  verified_on: "2026-05-14"

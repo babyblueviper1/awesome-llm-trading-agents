@@ -1,0 +1,29 @@
+slug: dianjin-r1
+title: DianJin-R1 (Qwen DianJin)
+type: framework
+category: 02-single-agent
+subcategory: reasoning-llm
+url: https://github.com/aliyun/qwen-dianjin
+paper_url: https://arxiv.org/abs/2504.15716
+maintainer: Alibaba Cloud
+year: 2025
+description: >-
+  Financial reasoning LLM family from Alibaba Cloud, fine-tuned from Qwen2.5-7B-Instruct and
+  Qwen2.5-32B-Instruct using reasoning-augmented supervision over CFLUE / FinQA / a proprietary
+  Chinese-compliance corpus, then RL with GRPO over dual reward signals.
+note: >-
+  One of the strongest open Chinese-finance reasoning LLMs as of 2025. Useful complement to
+  Fin-R1 and Fino1 for projects whose corpora include Chinese regulatory text. Same category-error
+  caveat as the other reasoning LLMs on this list: not a trading agent.
+tags:
+  - reasoning
+  - qwen
+  - chinese-finance
+  - alibaba
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2504.15716
+    - https://github.com/aliyun/qwen-dianjin
+    - https://huggingface.co/papers/2504.15716
+  verified_on: "2026-05-14"

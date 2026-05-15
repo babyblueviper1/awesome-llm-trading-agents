@@ -1,0 +1,26 @@
+slug: skfolio
+title: skfolio
+type: tool
+category: 06-backtesting
+subcategory: portfolio-optimisation
+url: https://github.com/skfolio/skfolio
+year: 2023
+description: >-
+  Python library for portfolio optimisation built on top of scikit-learn, with first-class
+  support for Combinatorial Purged Cross-Validation (CPCV) and other time-series-aware
+  validation schemes.
+note: >-
+  The reason to know this library specifically is its native CPCV implementation —
+  `skfolio.model_selection.CombinatorialPurgedCV`. If you are evaluating *any* portfolio
+  strategy (LLM-driven or not), CPCV is the right cross-validation primitive and skfolio is
+  the easiest open implementation.
+tags:
+  - portfolio
+  - cpcv
+  - sklearn
+verification:
+  status: verified
+  sources:
+    - https://github.com/skfolio/skfolio
+    - https://skfolio.org/generated/skfolio.model_selection.CombinatorialPurgedCV.html
+  verified_on: "2026-05-14"
