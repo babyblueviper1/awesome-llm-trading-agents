@@ -1,0 +1,21 @@
+slug: awesome-applied-agents-investment
+title: Awesome-Applied-Agents-for-Investment
+type: list
+category: 08-related-lists
+url: https://github.com/Sasha-Cui/Awesome-Applied-Agents-for-Investment
+maintainer: Sasha Cui
+year: 2024
+description: >-
+  Curated list of ~80 papers on LLM/agentic AI applied to investment research, trading, risk,
+  and financial text analysis, organised into 6 themed sections.
+note: >-
+  Closest neighbour to this list, with a complementary emphasis: paper-only, one-line descriptive
+  annotations, no engineering frameworks or dataset/benchmark coverage. Read in tandem with this list.
+tags:
+  - awesome-list
+  - papers
+verification:
+  status: verified
+  sources:
+    - https://github.com/Sasha-Cui/Awesome-Applied-Agents-for-Investment
+  verified_on: "2026-05-14"

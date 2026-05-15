@@ -1,0 +1,26 @@
+slug: llm-lookahead-solution
+title: "A Fast and Effective Solution to the Problem of Look-ahead Bias in LLMs"
+type: paper
+category: 03-papers
+subcategory: methodology-bias
+url: https://arxiv.org/abs/2512.06607
+paper_url: https://arxiv.org/abs/2512.06607
+year: 2025
+venue: arXiv preprint
+description: >-
+  Companion to the look-ahead-bias test paper — proposes a practical method for mitigating
+  look-ahead bias when using pre-trained LLMs in financial backtests without prohibitively expensive
+  re-training of frontier models from scratch.
+note: >-
+  Complementary to 2512.23847. If you build an LLM trading agent, you need a defensible answer to
+  "why isn't this just memorising 2022–2024 returns?". This paper gives you one practical answer
+  and a vocabulary to discuss it.
+tags:
+  - methodology
+  - look-ahead
+  - mitigation
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2512.06607
+  verified_on: "2026-05-14"

@@ -1,0 +1,22 @@
+slug: awesome-finllms
+title: Awesome-FinLLMs
+type: list
+category: 08-related-lists
+url: https://github.com/DataArcTech/Awesome-FinLLMs
+maintainer: DataArcTech
+year: 2024
+description: >-
+  Bilingual (EN/中) curated list of finance-specific large language models, including papers,
+  models, datasets, and codebases — with strong coverage of Chinese-market FinLLMs.
+note: >-
+  Sibling list focused on *FinLLMs as language models* rather than trading agents. The
+  Chinese-market coverage is particularly hard to find elsewhere in English-language curation.
+tags:
+  - awesome-list
+  - finllm
+  - bilingual
+verification:
+  status: verified
+  sources:
+    - https://github.com/DataArcTech/Awesome-FinLLMs
+  verified_on: "2026-05-14"

@@ -1,0 +1,57 @@
+name: Suggest a new entry
+description: Suggest a framework, paper, dataset, benchmark, tool, or simulator for the list.
+title: "[entry] <title>"
+labels: [new-entry]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Official project or paper title.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - framework
+        - paper
+        - dataset
+        - benchmark
+        - tool
+        - environment
+        - list
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Primary URL
+      description: Repo URL for code, arXiv abstract for papers.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-sentence factual description
+      description: What the project IS, not what it claims.
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Honest note (1–3 sentences)
+      description: |
+        Factual, fair, non-promotional. Mention what the project's own evaluation shows and
+        what a careful reader should independently verify (training-cutoff bleed, cost modeling,
+        universe size, comparison to buy-and-hold, etc.).
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Verification sources
+      description: At least one URL we can use to confirm the entry's facts.
+    validations:
+      required: true

@@ -1,0 +1,31 @@
+slug: fin-r1
+title: Fin-R1
+type: framework
+category: 02-single-agent
+subcategory: reasoning-llm
+url: https://github.com/SUFE-AIFLM-Lab/Fin-R1
+paper_url: https://arxiv.org/abs/2503.16252
+maintainer: SUFE AIFLM Lab
+year: 2025
+description: >-
+  A 7B financial reasoning LLM built on Qwen2.5-7B-Instruct, trained with SFT on Fin-R1-Data
+  (~60k bilingual financial reasoning examples) followed by RL with Group Relative Policy Optimization (GRPO).
+note: >-
+  Important caveat — Fin-R1 is a financial *reasoning* LLM, not a trading agent. The paper reports
+  top scores on FinQA (76.0) and ConvFinQA (85.0), out-performing DeepSeek-R1 and Qwen-2.5-32B on
+  those benchmarks. Useful as a backbone *inside* a trading agent, but on its own it answers
+  financial-reasoning questions; it does not place trades. Treat performance comparisons against
+  trading-agent frameworks as a category error.
+tags:
+  - reasoning
+  - qwen
+  - rl
+  - grpo
+  - finllm
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2503.16252
+    - https://github.com/SUFE-AIFLM-Lab/Fin-R1
+    - https://huggingface.co/papers/2503.16252
+  verified_on: "2026-05-14"

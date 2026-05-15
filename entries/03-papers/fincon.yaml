@@ -1,0 +1,47 @@
+slug: fincon
+title: "FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement"
+type: paper
+category: 03-papers
+subcategory: multi-agent-systems
+url: https://arxiv.org/abs/2407.06567
+paper_url: https://arxiv.org/abs/2407.06567
+authors:
+  - Yangyang Yu
+  - Zhiyuan Yao
+  - Haohang Li
+  - Zhiyang Deng
+  - Yuechen Jiang
+  - Yupeng Cao
+  - Zhi Chen
+  - Jordan W. Suchow
+  - Rong Liu
+  - Zhenyu Cui
+  - Denghui Zhang
+  - Koduvayur Subbalakshmi
+  - Guojun Xiong
+  - Yueru He
+  - Jimin Huang
+  - Dong Li
+  - Qianqian Xie
+year: 2024
+venue: NeurIPS 2024
+description: >-
+  Multi-agent LLM framework organised as a manager-analyst hierarchy with a risk-control component
+  that triggers episodic self-critique; "conceptualised beliefs" extracted from past episodes serve
+  as verbal reinforcement that is selectively propagated to the agent(s) needing knowledge updates.
+note: >-
+  From the same research lineage as FinMem; sharpens the multi-agent story with explicit belief
+  conceptualisation and selective propagation, which is one of the cleaner mechanisms in the
+  literature for avoiding catastrophic forgetting in long-horizon LLM trading runs. As always
+  with single-paper trading evals, check the holdout window vs. backbone LLM training cutoff.
+tags:
+  - multi-agent
+  - verbal-reinforcement
+  - risk-control
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2407.06567
+    - https://openreview.net/forum?id=dG1HwKMYbC
+    - https://proceedings.neurips.cc/paper_files/paper/2024/file/f7ae4fe91d96f50abc2211f09b6a7e49-Paper-Conference.pdf
+  verified_on: "2026-05-14"

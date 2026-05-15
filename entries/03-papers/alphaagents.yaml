@@ -1,0 +1,27 @@
+slug: alphaagents
+title: "AlphaAgents: LLM-based Multi-Agents for Equity Portfolio Construction"
+type: paper
+category: 03-papers
+subcategory: multi-agent-systems
+url: https://arxiv.org/abs/2508.11152
+paper_url: https://arxiv.org/abs/2508.11152
+year: 2025
+venue: arXiv preprint
+description: >-
+  Multi-agent LLM framework for equity portfolio construction that orchestrates specialised agents
+  reasoning over market data and fundamentals via collaborative debate, rather than a single agent
+  with a long context.
+note: >-
+  Targets *portfolio construction* — a separate problem from single-stock timing and one where the
+  literature has historically been thinner. Compares to standard portfolio baselines; the readability
+  of the debate transcripts is one of the contribution claims and is worth inspecting directly.
+tags:
+  - multi-agent
+  - portfolio
+  - debate
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2508.11152
+    - https://www.emergentmind.com/papers/2508.11152
+  verified_on: "2026-05-14"

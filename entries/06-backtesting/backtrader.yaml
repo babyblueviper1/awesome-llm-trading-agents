@@ -1,0 +1,24 @@
+slug: backtrader
+title: Backtrader
+type: tool
+category: 06-backtesting
+subcategory: event-driven
+url: https://github.com/mementum/backtrader
+year: 2015
+description: >-
+  Python event-driven backtesting and live-trading framework. Strategy-centric API, broad
+  broker/data-feed adapter ecosystem, and one of the gentlest paths from a research backtest
+  to a paper-trading setup.
+note: >-
+  The pragmatic default for retail and academic event-driven backtesting. Upstream maintenance
+  has been quiet for several years; community forks and wrappers handle most operational needs.
+  Not the fastest backtester, but the API is the most teachable.
+tags:
+  - backtest
+  - event-driven
+  - python
+verification:
+  status: verified
+  sources:
+    - https://github.com/mementum/backtrader
+  verified_on: "2026-05-14"

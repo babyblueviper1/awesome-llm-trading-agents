@@ -1,0 +1,24 @@
+slug: vectorbt
+title: vectorbt
+type: tool
+category: 06-backtesting
+subcategory: vectorised
+url: https://github.com/polakowo/vectorbt
+year: 2019
+description: >-
+  Vectorised backtesting library built on NumPy, pandas, and Numba. Runs many parameter
+  combinations in parallel without Python bar-loops, making it suited to grid sweeps over
+  signal- and risk-parameter spaces.
+note: >-
+  Excellent for research-phase throughput; the same speed is also what makes it dangerous —
+  running 10⁵ strategy variants without a multiple-testing correction is exactly the workflow
+  that *Probability of Backtest Overfitting* warns against. Pair with Deflated Sharpe.
+tags:
+  - backtest
+  - vectorised
+  - numba
+verification:
+  status: verified
+  sources:
+    - https://github.com/polakowo/vectorbt
+  verified_on: "2026-05-14"

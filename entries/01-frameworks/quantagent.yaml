@@ -1,0 +1,32 @@
+slug: quantagent
+title: QuantAgent
+type: framework
+category: 01-frameworks
+subcategory: multi-agent
+url: https://github.com/Y-Research-SBU/QuantAgent
+authors:
+  - Fei Xiong
+  - Xiang Zhang
+  - Aosong Feng
+  - Siqi Sun
+  - Chenyu You
+year: 2025
+description: >-
+  Multi-agent LLM framework targeting high-frequency trading, decomposing the task across four
+  specialised agents — Indicator, Pattern, Trend, and Risk — that reason over generated chart images,
+  so a vision-capable LLM is required.
+note: >-
+  Distinct from TradingAgents in its HFT framing and in being explicitly chart-image-driven. As with any
+  HFT-flavoured LLM agent, readers should pay close attention to claimed bar resolution vs. realistic
+  inference latency: visual-input LLMs are slow relative to HFT decision horizons, so the framework is
+  better read as a research prototype than a deployable HFT stack.
+tags:
+  - multi-agent
+  - hft
+  - vision
+verification:
+  status: verified
+  sources:
+    - https://github.com/Y-Research-SBU/QuantAgent
+    - https://y-research-sbu.github.io/QuantAgent/
+  verified_on: "2026-05-14"

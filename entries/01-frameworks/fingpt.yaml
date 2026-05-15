@@ -1,0 +1,29 @@
+slug: fingpt
+title: FinGPT
+type: framework
+category: 01-frameworks
+subcategory: finllm-tooling
+url: https://github.com/AI4Finance-Foundation/FinGPT
+maintainer: AI4Finance Foundation
+year: 2023
+description: >-
+  Open-source financial LLM stack from AI4Finance Foundation. The FinGPT v3 series fine-tunes
+  Llama-2 (7B/13B) and ChatGLM2 (6B) via LoRA on news and tweet sentiment data, packaged with
+  the FinNLP pipeline for finance-specific fine-tuning.
+note: >-
+  Better understood as a *FinLLM toolkit* than a trading agent — FinGPT itself is a fine-tuned LM
+  used downstream by FinRobot and others, not a standalone trading system. Listed in this section
+  because the LLM-trading-agent stack often starts here for sentiment scoring. The widely-quoted
+  "~$300 fine-tuning cost" applies to LoRA tuning on small data — not to building a competitive
+  general FinLLM from scratch.
+tags:
+  - finllm
+  - lora
+  - sentiment
+  - ai4finance
+verification:
+  status: verified
+  sources:
+    - https://github.com/AI4Finance-Foundation/FinGPT
+    - https://ai4finance-foundation.github.io/FinNLP/
+  verified_on: "2026-05-14"

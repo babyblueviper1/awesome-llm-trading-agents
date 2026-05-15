@@ -1,0 +1,25 @@
+name: Report a stale or incorrect entry
+description: Flag a broken link, outdated note, or factual error.
+title: "[correction] <slug>"
+labels: [correction]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Entry slug or title
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong
+      description: Specific claim, link, author attribution, year, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: URL(s) that demonstrate the correction.
+    validations:
+      required: true

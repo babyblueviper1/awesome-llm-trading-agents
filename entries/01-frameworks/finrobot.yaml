@@ -1,0 +1,28 @@
+slug: finrobot
+title: FinRobot
+type: framework
+category: 01-frameworks
+subcategory: multi-agent
+url: https://github.com/AI4Finance-Foundation/FinRobot
+maintainer: AI4Finance Foundation
+year: 2024
+description: >-
+  Open-source AI-agent platform from AI4Finance Foundation for financial applications, combining LLMs,
+  reinforcement learning, and quantitative analytics across forecasting, document-analysis, and trading-strategy
+  agents, with financial chain-of-thought prompting throughout.
+note: >-
+  Platform-style sibling to FinGPT — broader scope than a single trading agent. Strongest signal of activity
+  is the AI4Finance Foundation maintenance footprint (same group behind FinRL and FinGPT). Readers evaluating
+  it for trading specifically should check whether the trading-strategy agent has an end-to-end backtest
+  example, since the platform's breadth makes it easy to miss what is fully implemented vs. scaffolded.
+tags:
+  - multi-agent
+  - platform
+  - cot
+  - ai4finance
+verification:
+  status: verified
+  sources:
+    - https://github.com/AI4Finance-Foundation/FinRobot
+    - https://github.com/AI4Finance-Foundation
+  verified_on: "2026-05-14"

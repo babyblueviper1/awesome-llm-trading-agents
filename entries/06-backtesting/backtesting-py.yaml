@@ -1,0 +1,23 @@
+slug: backtesting-py
+title: Backtesting.py
+type: tool
+category: 06-backtesting
+subcategory: lightweight
+url: https://github.com/kernc/backtesting.py
+year: 2019
+description: >-
+  Minimal Python framework for backtesting trading strategies on single instruments, with a
+  small API surface and a built-in interactive Bokeh equity-curve view.
+note: >-
+  The fastest way to sanity-check a single-asset strategy. Not appropriate for portfolio
+  construction, dynamic universe, or multi-asset agents — but excellent as the "is the LLM's
+  signal worth anything before I build infrastructure around it?" smoke test.
+tags:
+  - backtest
+  - lightweight
+  - python
+verification:
+  status: verified
+  sources:
+    - https://github.com/kernc/backtesting.py
+  verified_on: "2026-05-14"

@@ -1,0 +1,31 @@
+slug: probability-backtest-overfitting
+title: "The Probability of Backtest Overfitting"
+type: paper
+category: 03-papers
+subcategory: methodology-bias
+url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2326253
+paper_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2326253
+authors:
+  - David H. Bailey
+  - Jonathan Borwein
+  - Marcos López de Prado
+  - Qiji Jim Zhu
+year: 2014
+venue: Journal of Computational Finance
+description: >-
+  Foundational paper formalising "backtest overfitting" — when, in an exhaustive search over
+  trading-strategy variants, the in-sample "best" strategy almost certainly performs poorly
+  out-of-sample. Introduces the Probability of Backtest Overfitting (PBO) statistic.
+note: >-
+  Pre-LLM but absolutely essential. Every "I tried N variants of my LLM-agent prompt and reported
+  the best Sharpe" workflow is exactly what this paper warns against. If you read one methodology
+  paper before evaluating any project on this list, read this one.
+tags:
+  - methodology
+  - overfitting
+  - statistics
+verification:
+  status: verified
+  sources:
+    - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2326253
+  verified_on: "2026-05-14"

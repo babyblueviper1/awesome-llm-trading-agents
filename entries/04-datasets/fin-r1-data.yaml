@@ -1,0 +1,27 @@
+slug: fin-r1-data
+title: Fin-R1-Data
+type: dataset
+category: 04-datasets
+subcategory: reasoning
+url: https://github.com/SUFE-AIFLM-Lab/Fin-R1
+paper_url: https://arxiv.org/abs/2503.16252
+maintainer: SUFE AIFLM Lab
+year: 2025
+description: >-
+  Bilingual (EN/中) financial reasoning dataset of ~60k examples integrating open-source
+  datasets and professional examination problems, filtered with Qwen2.5-72B-Instruct as a
+  consistency/coherence/domain-alignment judge. Used to train the Fin-R1 reasoning model.
+note: >-
+  Released alongside the Fin-R1 model. The LLM-judge filtering pipeline is a methodologically
+  honest touch but inherits the judge's blind spots; downstream users should sample-audit before
+  treating it as a turnkey reasoning corpus.
+tags:
+  - dataset
+  - reasoning
+  - bilingual
+verification:
+  status: verified
+  sources:
+    - https://github.com/SUFE-AIFLM-Lab/Fin-R1
+    - https://arxiv.org/abs/2503.16252
+  verified_on: "2026-05-14"

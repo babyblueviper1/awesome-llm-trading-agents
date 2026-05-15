@@ -1,0 +1,21 @@
+slug: awesome-llm-powered-agent
+title: awesome-llm-powered-agent
+type: list
+category: 08-related-lists
+url: https://github.com/hyp1231/awesome-llm-powered-agent
+maintainer: hyp1231
+year: 2023
+description: >-
+  Broad curated list of LLM-powered agent research — papers, repos, and blog posts on
+  autonomous-agent capabilities across domains, not finance-specific.
+note: >-
+  The grandparent category: LLM agents in general. Read this list if you want to ground a finance
+  LLM-agent project in the wider agent literature (planning, memory, tool use, multi-agent debate).
+tags:
+  - awesome-list
+  - llm-agents
+verification:
+  status: verified
+  sources:
+    - https://github.com/hyp1231/awesome-llm-powered-agent
+  verified_on: "2026-05-14"

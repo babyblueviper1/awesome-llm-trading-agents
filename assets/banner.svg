@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#1a2046"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6ee7b7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6ee7b7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#94a3b8" stroke-width="1">
+    <path d="M0 200 L120 180 L240 195 L360 160 L480 175 L600 130 L720 150 L840 110 L960 135 L1080 95 L1200 120" fill="none"/>
+    <path d="M0 220 L120 210 L240 222 L360 200 L480 215 L600 190 L720 205 L840 180 L960 200 L1080 175 L1200 195" fill="none"/>
+  </g>
+  <path d="M0 130 L160 140 L300 100 L460 130 L620 80 L800 110 L980 60 L1200 95" fill="none" stroke="url(#line)" stroke-width="3"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#f8fafc">
+    <text x="60" y="105" font-size="42" font-weight="700">awesome-llm-trading-agents</text>
+    <text x="60" y="150" font-size="20" font-weight="400" fill="#cbd5e1">A verified, honestly-annotated map of the LLM-trading-agent ecosystem</text>
+    <text x="60" y="200" font-size="14" fill="#94a3b8">frameworks · papers · datasets · benchmarks · backtesting · simulators · methodology</text>
+    <text x="60" y="230" font-size="12" fill="#64748b">curated by Betty Guo · University of Hong Kong · CC0 list, MIT tools</text>
+  </g>
+</svg>

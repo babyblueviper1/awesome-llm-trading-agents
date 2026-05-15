@@ -1,0 +1,27 @@
+slug: qlib
+title: Qlib
+type: framework
+category: 02-single-agent
+subcategory: ml-platform
+url: https://github.com/microsoft/qlib
+maintainer: Microsoft
+year: 2020
+description: >-
+  AI-oriented quantitative investment platform covering the full ML pipeline — data processing,
+  feature engineering, model training, backtesting — across supervised learning, market-dynamics
+  modeling, and reinforcement learning, with the RD-Agent extension automating research workflow.
+note: >-
+  Like FinRL, not an LLM trading agent but essential infrastructure that LLM-agent work should be
+  benchmarked against. Qlib's data layer (Alpha 158 / 360, point-in-time fundamentals) is among the
+  cleaner public substrates for reproducible factor research and rules out the "the LLM picked up
+  features the baseline didn't have" failure mode.
+tags:
+  - platform
+  - ml
+  - microsoft
+  - factor-research
+verification:
+  status: verified
+  sources:
+    - https://github.com/microsoft/qlib
+  verified_on: "2026-05-14"

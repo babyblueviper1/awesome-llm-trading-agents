@@ -1,0 +1,28 @@
+slug: abides
+title: ABIDES / ABIDES-Markets / ABIDES-Gym
+type: environment
+category: 07-simulators
+subcategory: agent-based
+url: https://github.com/jpmorganchase/abides-jpmc-public
+maintainer: J.P. Morgan AI Research
+year: 2020
+description: >-
+  Agent-Based Interactive Discrete-Event Simulator for financial markets, split into ABIDES-Core
+  (general DES), ABIDES-Markets (NASDAQ-style exchange + stylised agents) and ABIDES-Gym (Gym
+  wrapper for RL). Supports configurable pairwise network latency between agents and exchange.
+note: >-
+  The standard high-fidelity market simulator for research. Underused by current LLM-agent
+  papers, which mostly backtest against historical tapes — putting LLM agents into ABIDES would
+  remove a layer of look-ahead-bias risk and provide controlled counterfactuals. A natural next
+  step for the field.
+tags:
+  - simulator
+  - agent-based
+  - jpmc
+  - gym
+verification:
+  status: verified
+  sources:
+    - https://github.com/jpmorganchase/abides-jpmc-public
+    - https://par.nsf.gov/servlets/purl/10185795
+  verified_on: "2026-05-14"

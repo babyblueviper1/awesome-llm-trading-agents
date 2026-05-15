@@ -1,0 +1,21 @@
+slug: awesome-quant
+title: awesome-quant
+type: list
+category: 08-related-lists
+url: https://github.com/wilsonfreitas/awesome-quant
+maintainer: Wilson Freitas
+year: 2014
+description: >-
+  Classic, long-running curated list of libraries, packages, and resources for quantitative
+  finance across many languages, predating both the deep-learning and LLM eras of the field.
+note: >-
+  The plumbing layer. If you need a date library, a yield-curve toolkit, a numerical-finance
+  package, or a data feed for your LLM agent's data ingestion, this is where to look first.
+tags:
+  - awesome-list
+  - quant
+verification:
+  status: verified
+  sources:
+    - https://github.com/wilsonfreitas/awesome-quant
+  verified_on: "2026-05-14"

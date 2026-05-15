@@ -1,0 +1,28 @@
+slug: agent-market-arena
+title: "Agent Market Arena (AMA): Live Multi-Market Trading Benchmark for LLM Agents"
+type: benchmark
+category: 05-benchmarks
+subcategory: live-trading
+url: https://arxiv.org/abs/2510.11695
+paper_url: https://arxiv.org/abs/2510.11695
+year: 2025
+venue: arXiv preprint
+description: >-
+  Lifelong, real-time, multi-class-asset benchmark for LLM-based trading agents under live
+  market conditions, addressing prior benchmarks' reliance on short windows, limited assets,
+  and unverified data feeds.
+note: >-
+  The most useful finding for the field: AMA reports that **agent architecture, not the choice
+  of LLM backbone, is the dominant driver of profitability**. If true, this is a load-bearing
+  result — it would mean the >$10B race to bigger backbones is largely orthogonal to whether
+  LLM agents actually trade. Treat as a strong claim worth replicating before accepting.
+tags:
+  - benchmark
+  - live
+  - multi-asset
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2510.11695
+    - https://www.themoonlight.io/en/review/when-agents-trade-live-multi-market-trading-benchmark-for-llm-agents
+  verified_on: "2026-05-14"

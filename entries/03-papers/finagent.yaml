@@ -1,0 +1,28 @@
+slug: finagent
+title: "FinAgent: A Multimodal Foundation Agent for Financial Trading"
+type: paper
+category: 03-papers
+subcategory: multimodal-agents
+url: https://arxiv.org/abs/2402.18485
+paper_url: https://arxiv.org/abs/2402.18485
+year: 2024
+venue: arXiv preprint
+description: >-
+  Tool-augmented multimodal LLM agent for financial trading whose market-intelligence module
+  ingests numerical, textual, and visual inputs (charts, news, fundamentals) and exposes a
+  tool-calling interface for retrieval and structured analysis.
+note: >-
+  Useful reference for the "multimodal" framing of LLM trading agents — by mid-2025, charts-as-images
+  inputs became standard and FinAgent is among the more cited multimodal baselines. The paper's
+  large reported absolute returns deserve the same scrutiny as any single-paper backtest: window
+  selection, cost modeling, and training-cutoff overlap.
+tags:
+  - multimodal
+  - tool-use
+  - vision
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2402.18485
+    - https://ideas.repec.org/p/arx/papers/2402.18485.html
+  verified_on: "2026-05-14"

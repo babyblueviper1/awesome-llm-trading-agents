@@ -1,0 +1,26 @@
+slug: llm-investing-longrun
+title: "Can LLM-based Financial Investing Strategies Outperform the Market in Long Run?"
+type: paper
+category: 03-papers
+subcategory: methodology-bias
+url: https://arxiv.org/abs/2505.07078
+paper_url: https://arxiv.org/abs/2505.07078
+year: 2025
+venue: arXiv preprint
+description: >-
+  Empirical study testing whether LLM-driven investment strategies sustain returns over long
+  evaluation windows — the regime where transaction costs, regime change, and overfitting most
+  often kill backtest-only strategies.
+note: >-
+  Useful complement to the look-ahead-bias literature: even if you control for training-cutoff
+  bleed, long-run live (or long-window walk-forward) performance is where most LLM strategies
+  reveal their fragility. Read together with López de Prado's *Probability of Backtest Overfitting*.
+tags:
+  - methodology
+  - long-horizon
+  - evaluation
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2505.07078
+  verified_on: "2026-05-14"

@@ -1,0 +1,28 @@
+slug: stockagent
+title: StockAgent
+type: framework
+category: 01-frameworks
+subcategory: simulation-based
+url: https://github.com/MingyuJ666/Stockagent
+authors:
+  - Mingyu Jin
+year: 2024
+description: >-
+  Multi-agent LLM system that simulates investor trading behavior in a constructed market environment
+  rather than backtesting against historical price tapes — designed for studying how external factors
+  (news, policy, sentiment shocks) propagate through agent populations.
+note: >-
+  The contribution is *behavioural*, not predictive: StockAgent is a sandbox for studying agent
+  populations under perturbation, not an LLM that beats buy-and-hold. Readers should treat the
+  simulated-market caveat seriously — results in the paper describe dynamics inside a constructed
+  environment and do not constitute a backtest in the conventional sense.
+tags:
+  - multi-agent
+  - simulation
+  - behavioral
+verification:
+  status: verified
+  sources:
+    - https://github.com/MingyuJ666/Stockagent
+    - https://www.researchgate.net/publication/379835420_When_AI_Meets_Finance_StockAgent_Large_Language_Model-_based_Stock_Trading_in_Simulated_Real-world_Environments
+  verified_on: "2026-05-14"

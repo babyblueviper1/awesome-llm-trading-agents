@@ -1,0 +1,40 @@
+slug: tradingagents
+title: TradingAgents
+type: framework
+category: 01-frameworks
+subcategory: multi-agent
+url: https://github.com/TauricResearch/TradingAgents
+paper_url: https://arxiv.org/abs/2412.20138
+authors:
+  - Yijia Xiao
+  - Edward Sun
+  - Di Luo
+  - Wei Wang
+maintainer: Tauric Research
+year: 2024
+venue: arXiv (q-fin.TR), preprint v7 (2025-06-03)
+metrics:
+  stars: 73700
+  as_of: "2026-05"
+description: >-
+  Multi-agent LLM trading framework with specialised fundamental, sentiment, and technical analysts,
+  bull/bear researchers, a trader, and a risk-management team, coordinated via LangGraph and supporting
+  OpenAI, Anthropic, Google, xAI, DeepSeek, Qwen, GLM, MiniMax, OpenRouter, Ollama, and Azure OpenAI backends.
+note: >-
+  The anchor project of the category. The paper (arXiv 2412.20138) reports improvements in cumulative
+  returns, Sharpe ratio, and maximum drawdown over baselines on a stock-trading task; results, ablations,
+  and the agent debate protocol are documented across versions v1–v7. As with any 2024–25 LLM trading
+  study, readers should independently check whether the evaluation window post-dates the LLM's training
+  cutoff (a known source of look-ahead bias for LLM agents) and how transaction costs are modelled.
+tags:
+  - multi-agent
+  - langgraph
+  - stocks
+  - debate
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2412.20138
+    - https://github.com/TauricResearch/TradingAgents
+  verified_on: "2026-05-14"
+  notes: null

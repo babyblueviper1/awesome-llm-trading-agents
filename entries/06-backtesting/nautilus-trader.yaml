@@ -1,0 +1,25 @@
+slug: nautilus-trader
+title: NautilusTrader
+type: tool
+category: 06-backtesting
+subcategory: execution-grade
+url: https://github.com/nautechsystems/nautilus_trader
+year: 2018
+description: >-
+  Production-grade algorithmic trading platform written in Rust with a Python API, supporting
+  high-performance event-driven backtesting alongside live trading on the same codepath, with
+  realistic order-type, latency, and book-depth modeling.
+note: >-
+  The right choice when the strategy depends on execution mechanics. Steeper learning curve
+  than Backtrader and unnecessary for a long-horizon, daily-bar LLM agent — but essential if
+  your LLM is calling for intraday execution.
+tags:
+  - backtest
+  - live-trading
+  - rust
+  - execution
+verification:
+  status: verified
+  sources:
+    - https://github.com/nautechsystems/nautilus_trader
+  verified_on: "2026-05-14"

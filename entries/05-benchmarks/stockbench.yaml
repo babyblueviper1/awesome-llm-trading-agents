@@ -1,0 +1,28 @@
+slug: stockbench
+title: "StockBench: Can LLM Agents Trade Stocks Profitably in Real-World Markets?"
+type: benchmark
+category: 05-benchmarks
+subcategory: live-trading
+url: https://arxiv.org/abs/2510.02209
+paper_url: https://arxiv.org/abs/2510.02209
+year: 2025
+venue: OpenReview (under review)
+description: >-
+  Contamination-controlled multi-month stock-trading benchmark for LLM agents, evaluating
+  across 82 trading days from 2025-03-03 to 2025-06-30 to span varied market conditions and
+  to sit *after* the training cutoffs of the evaluated frontier models.
+note: >-
+  Probably the single most useful benchmark for sanity-checking LLM-trading claims circa 2025–26.
+  Headline finding: most evaluated LLM agents (GPT-5, Claude-4, Qwen3, Kimi-K2, GLM-4.5) fail to
+  beat a buy-and-hold baseline, though a few show edges on risk-adjusted return. If your project
+  doesn't report against StockBench (or similar), readers should ask why.
+tags:
+  - benchmark
+  - contamination-controlled
+  - live
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2510.02209
+    - https://openreview.net/forum?id=9tFRj7cmrS
+  verified_on: "2026-05-14"

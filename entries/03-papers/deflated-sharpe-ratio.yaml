@@ -1,0 +1,30 @@
+slug: deflated-sharpe-ratio
+title: "The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality"
+type: paper
+category: 03-papers
+subcategory: methodology-bias
+url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2460551
+paper_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2460551
+authors:
+  - David H. Bailey
+  - Marcos López de Prado
+year: 2014
+venue: Journal of Portfolio Management
+description: >-
+  Introduces the Deflated Sharpe Ratio (DSR), which adjusts the conventional Sharpe ratio for
+  the number of trials performed during strategy selection and for non-normal return distributions —
+  separating likely-real edges from artifacts of multiple testing.
+note: >-
+  The companion to *The Probability of Backtest Overfitting*. If a paper or repo on this list
+  reports a Sharpe of 2 without telling you how many variants were tried before reporting it,
+  the unadjusted Sharpe is almost meaningless. Insist on DSR (or at minimum, the trial count).
+tags:
+  - methodology
+  - sharpe
+  - selection-bias
+verification:
+  status: verified
+  sources:
+    - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2460551
+    - https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf
+  verified_on: "2026-05-14"

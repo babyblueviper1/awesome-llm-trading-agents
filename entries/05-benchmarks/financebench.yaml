@@ -1,0 +1,28 @@
+slug: financebench
+title: FinanceBench
+type: benchmark
+category: 05-benchmarks
+subcategory: financial-qa
+url: https://www.patronus.ai/blog/announcing-financebench-the-first-benchmark-of-its-kind
+paper_url: https://arxiv.org/abs/2311.11944
+maintainer: Patronus AI
+year: 2023
+description: >-
+  Benchmark of 10,000+ verified question-answer triplets grounded in U.S. public-company
+  filings — designed to test whether an LLM can answer factual financial questions that
+  professionals routinely ask of 10-K / 10-Q documents.
+note: >-
+  Pure-NLP benchmark, not a trading benchmark. Included because every framework on this list
+  that has a "fundamental analyst" agent is implicitly making a claim about document QA, and
+  FinanceBench is the standard probe for that capability. Strong performance does not imply
+  strong trading performance.
+tags:
+  - benchmark
+  - qa
+  - filings
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2311.11944
+    - https://www.emergentmind.com/topics/financebench-dataset
+  verified_on: "2026-05-14"

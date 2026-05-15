@@ -1,0 +1,28 @@
+slug: investorbench
+title: "INVESTORBENCH: A Benchmark for Financial Decision-Making Tasks with LLM-based Agent"
+type: benchmark
+category: 05-benchmarks
+subcategory: agent-decision-making
+url: https://arxiv.org/abs/2412.18174
+paper_url: https://arxiv.org/abs/2412.18174
+year: 2024
+venue: ACL 2025
+description: >-
+  First benchmark explicitly designed for *LLM-based agents* in financial decision-making,
+  spanning single equities, cryptocurrencies, and ETFs and evaluating reasoning across thirteen
+  backbone LLMs and varied market environments.
+note: >-
+  An important framing shift: prior benchmarks (FinBen, PIXIU/FLARE) evaluate LLMs at financial
+  NLP tasks; INVESTORBENCH evaluates *agents at decisions*, which is the right unit of analysis
+  for this list. As with all multi-asset agent benchmarks, look at per-asset results and not just
+  the headline average.
+tags:
+  - benchmark
+  - agents
+  - multi-asset
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2412.18174
+    - https://aclanthology.org/2025.acl-long.126/
+  verified_on: "2026-05-14"

@@ -1,0 +1,31 @@
+slug: finrl
+title: FinRL
+type: framework
+category: 02-single-agent
+subcategory: rl-baseline
+url: https://github.com/AI4Finance-Foundation/FinRL
+paper_url: https://arxiv.org/abs/2011.09607
+maintainer: AI4Finance Foundation
+year: 2020
+venue: NeurIPS 2020 Deep RL Workshop
+description: >-
+  Open-source deep reinforcement learning library for automated stock trading, providing a
+  layered architecture (environment, agents, applications) and reference implementations across
+  single-stock, multi-stock, portfolio-allocation, and crypto tasks. FinRL-X is the next-generation
+  modular evolution.
+note: >-
+  Not an LLM agent — but listed here because *every* LLM-trading paper worth reading should compare
+  to a strong RL baseline, and FinRL is the standard. Use it as the "is this LLM agent actually
+  beating a tuned PPO/SAC on the same task?" sanity check. Readers should note that FinRL itself has
+  many tutorials with optimistic-looking returns; the same critical-reading rules apply.
+tags:
+  - rl
+  - baseline
+  - ai4finance
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2011.09607
+    - https://github.com/AI4Finance-Foundation/FinRL
+    - https://finrl.readthedocs.io/en/latest/index.html
+  verified_on: "2026-05-14"

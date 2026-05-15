@@ -1,0 +1,21 @@
+slug: awesome-ai-in-finance
+title: awesome-ai-in-finance
+type: list
+category: 08-related-lists
+url: https://github.com/georgezouq/awesome-ai-in-finance
+maintainer: George Zou
+year: 2018
+description: >-
+  Long-running curated list of LLMs, deep-learning strategies, and tools in financial markets —
+  broader scope than this list, covering data APIs, macroeconomic providers, and SEC trackers.
+note: >-
+  The natural parent list: AI in finance generally, not LLM trading agents specifically. Good place
+  to start if you came here for general AI-in-finance and discovered we are tighter-scoped.
+tags:
+  - awesome-list
+  - ai-finance
+verification:
+  status: verified
+  sources:
+    - https://github.com/georgezouq/awesome-ai-in-finance
+  verified_on: "2026-05-14"

@@ -1,0 +1,38 @@
+slug: pixiu-flare
+title: PIXIU / FLARE
+type: dataset
+category: 04-datasets
+subcategory: instruction-and-eval
+url: https://github.com/The-FinAI/PIXIU
+paper_url: https://arxiv.org/abs/2306.05443
+authors:
+  - Qianqian Xie
+  - Weiguang Han
+  - Xiao Zhang
+  - Yanzhao Lai
+  - Min Peng
+  - Alejandro Lopez-Lira
+  - Jimin Huang
+year: 2023
+venue: NeurIPS 2023 Datasets & Benchmarks
+description: >-
+  PIXIU bundles a financial LLM (FinMA), a 136k-example instruction-tuning dataset, and the
+  FLARE benchmark spanning 4 financial NLP tasks across 6 datasets plus a stock-movement
+  prediction task across 3 datasets.
+note: >-
+  Foundational substrate for financial-LLM training and evaluation. The stock-movement task
+  inside FLARE is the part most directly relevant to trading agents; the rest is closer to
+  classical financial NLP (NER, sentiment, headline classification). PIXIU's FinMA model is a
+  useful baseline backbone, not a trading agent.
+tags:
+  - dataset
+  - benchmark
+  - instruction-tuning
+  - finma
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2306.05443
+    - https://github.com/The-FinAI/PIXIU
+    - https://openreview.net/forum?id=vTrRq6vCQH
+  verified_on: "2026-05-14"

@@ -1,0 +1,24 @@
+slug: zipline-reloaded
+title: Zipline-Reloaded
+type: tool
+category: 06-backtesting
+subcategory: event-driven
+url: https://github.com/stefan-jansen/zipline-reloaded
+year: 2020
+description: >-
+  Actively maintained fork of Quantopian's Zipline backtester, keeping the Pipeline API for
+  factor research, dynamic universe selection, and event-driven backtesting on long/short
+  equity strategies.
+note: >-
+  Best in class when the workflow is "compute a factor over a dynamic universe and backtest
+  long/short on it" — Pipeline remains uniquely expressive. Less appropriate when execution
+  realism (order types, latency, depth) is the question.
+tags:
+  - backtest
+  - pipeline
+  - factor-research
+verification:
+  status: verified
+  sources:
+    - https://github.com/stefan-jansen/zipline-reloaded
+  verified_on: "2026-05-14"

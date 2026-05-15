@@ -1,0 +1,26 @@
+slug: lookahead-bias-llm-forecasts
+title: "A Test of Lookahead Bias in LLM Forecasts"
+type: paper
+category: 03-papers
+subcategory: methodology-bias
+url: https://arxiv.org/abs/2512.23847
+paper_url: https://arxiv.org/abs/2512.23847
+year: 2025
+venue: arXiv preprint
+description: >-
+  Proposes a test (LAP test) for whether LLMs' apparent predictive power on financial outcomes is
+  inference or memorisation, applied to news-headline-→-return and earnings-call-→-capex tasks.
+note: >-
+  Required reading before believing any LLM-trading backtest. The paper finds that LLMs' "predictive
+  power" partly reflects memorisation of training-window outcomes rather than genuine forward
+  inference. The implication for every entry in this list: a backtest whose window overlaps the
+  backbone LLM's training cutoff is at minimum suspect.
+tags:
+  - methodology
+  - look-ahead
+  - evaluation
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2512.23847
+  verified_on: "2026-05-14"

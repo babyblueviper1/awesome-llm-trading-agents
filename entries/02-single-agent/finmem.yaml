@@ -1,0 +1,39 @@
+slug: finmem
+title: FinMem
+type: framework
+category: 02-single-agent
+subcategory: memory-augmented
+url: https://github.com/pipiku915/FinMem-LLM-StockTrading
+paper_url: https://arxiv.org/abs/2311.13743
+authors:
+  - Yangyang Yu
+  - Haohang Li
+  - Zhi Chen
+  - Yuechen Jiang
+  - Yang Li
+  - Denghui Zhang
+  - Rong Liu
+  - Jordan W. Suchow
+  - Khaldoun Khashanah
+year: 2023
+venue: ICLR 2024 LLM Agents Workshop / AAAI Spring Symposium 2024
+description: >-
+  Single LLM trading agent with three modules — character profiling, a layered memory with decay
+  to model differing temporal sensitivities of financial signals, and a decision module — designed
+  to mirror the cognitive structure of human discretionary traders.
+note: >-
+  Foundational reference for memory-aware LLM traders and the conceptual ancestor of TradingAgents
+  and FinCon. The paper reports strong returns vs. algorithmic baselines on a scoped stock-trading
+  task; readers should note the universe and time window are limited, and like all 2023-vintage LLM
+  trading work the evaluation window risks overlap with the backbone LLM's training data.
+tags:
+  - single-agent
+  - memory
+  - profiling
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2311.13743
+    - https://github.com/pipiku915/FinMem-LLM-StockTrading
+    - https://openreview.net/forum?id=sstfVOwbiG
+  verified_on: "2026-05-14"

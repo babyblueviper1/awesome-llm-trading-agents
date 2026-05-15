@@ -1,0 +1,29 @@
+slug: finben
+title: "FinBen: A Holistic Financial Benchmark for Large Language Models"
+type: benchmark
+category: 05-benchmarks
+subcategory: nlp-and-decisioning
+url: https://arxiv.org/abs/2402.12659
+paper_url: https://arxiv.org/abs/2402.12659
+year: 2024
+venue: NeurIPS 2024 Datasets & Benchmarks
+description: >-
+  Broad financial-LLM benchmark covering 42 datasets across 24 tasks and 8 aspects (information
+  extraction, textual analysis, QA, generation, risk, forecasting, decision-making, bilingual),
+  with a living leaderboard.
+note: >-
+  Wider in scope than this list cares about — only the forecasting and decision-making slices
+  are directly trading-relevant — but FinBen results are widely cited as backbone-LLM credentials.
+  Strong NLP-task numbers don't translate into trading skill (a finding sharpened by StockBench);
+  treat FinBen as a knowledge probe, not as a trading benchmark.
+tags:
+  - benchmark
+  - leaderboard
+  - finllm
+verification:
+  status: verified
+  sources:
+    - https://arxiv.org/abs/2402.12659
+    - https://www.thefin.ai/dataset-benchmark/finben
+    - https://neurips.cc/virtual/2024/poster/97525
+  verified_on: "2026-05-14"
