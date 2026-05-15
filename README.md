@@ -179,7 +179,7 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md). Every entry must include a verificatio
 
 ## Curator & License
 
-Curated by **Betty Guo (Dongxin Guo)**, final-year CS PhD candidate, University of Hong Kong; advised by Prof. Siu-Ming Yiu. ORCID [0009-0000-2388-1072](https://orcid.org/0009-0000-2388-1072). GitHub [@bettyguo](https://github.com/bettyguo).
+Curated by **Betty Guo** ([Dongxin Guo](https://bettyguo.github.io)), PhD candidate in Computer Science at [The University of Hong Kong](https://www.cs.hku.hk/), advised by [Prof. Siu-Ming Yiu](https://www.cs.hku.hk/people/academic-staff/smyiu).
 
 - List content (this README, `entries/`, `docs/`) — CC0 1.0. See [`LICENSE-list`](LICENSE-list).
 - Tooling code (`tools/`, `.github/`) — MIT. See [`LICENSE`](LICENSE).
