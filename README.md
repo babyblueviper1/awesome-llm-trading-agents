@@ -168,9 +168,3 @@ The single most useful section of this repo. A self-contained guide to evaluatin
 
 → **Read [`docs/methodology.md`](docs/methodology.md).**
 
----
-
-## Contributing
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md). Every entry must include a verification source and a factual, non-promotional honest note. The PR will be auto-checked by the link-checker and entry validator.
-
