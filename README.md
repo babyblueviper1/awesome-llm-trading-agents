@@ -6,9 +6,9 @@
 
 # awesome-llm-trading-agents
 
-> A curated, verified map of the LLM-trading-agent ecosystem, frameworks, papers, datasets, and evaluation tools, with honest notes on what is rigorous and what is hype.
+> A curated, verified map of the LLM-trading-agent ecosystem — frameworks, papers, datasets, and evaluation tools — with honest notes on what is rigorous and what is hype.
 
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) ![License: CC0 list / MIT code](https://img.shields.io/badge/license-CC0%20%2F%20MIT-blue) ![Entries](https://img.shields.io/badge/entries-62-brightgreen)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) ![License: CC0 list / MIT code](https://img.shields.io/badge/license-CC0%20%2F%20MIT-blue) ![Entries](https://img.shields.io/badge/entries-63-brightgreen)
 
 ---
 
@@ -38,6 +38,7 @@ This list is a research map. Nothing here is investment advice. The category is 
 - [Related Lists](#related-lists)
 - [Methodology & Common Pitfalls](docs/methodology.md)
 - [Contributing](CONTRIBUTING.md)
+- [Curator & License](#curator--license)
 
 ---
 
@@ -135,6 +136,7 @@ Backtesting and execution engines. None are LLM-specific; all are essential plum
 | [skfolio](https://github.com/skfolio/skfolio) | tool | 2023 | Python library for portfolio optimisation built on top of scikit-learn, with first-class support for Combinatorial Purged Cross-Validation (CPCV) and other time-series-aware validation schemes. | The reason to know this library specifically is its native CPCV implementation — `skfolio.model_selection.CombinatorialPurgedCV`. If you are evaluating *any* portfolio strategy (LLM-driven or not), CPCV is the right cross-validation primitive and skfolio is the easiest open implementation. |
 | [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | tool | 2020 | Python library for portfolio optimisation and quantitative strategic asset allocation built on CVXPY. Broader risk-measure coverage than PyPortfolioOpt (CVaR, EVaR, drawdown-based measures, hierarchical methods). | Pick over PyPortfolioOpt when the LLM agent's risk view requires a non-variance risk measure (drawdown control, tail-risk targeting). CVXPY backend means convergence guarantees are inherited from the underlying solver — if the optimiser is failing silently in your stack, inspect the CVXPY status first. |
 | [PyPortfolioOpt](https://github.com/PyPortfolio/PyPortfolioOpt) | tool | 2018 | Python library for portfolio optimisation: classical mean-variance / efficient frontier, Black-Litterman, shrinkage, and Hierarchical Risk Parity. Modular API so individual components can be swapped without reimplementing the framework. | Standard "I have a vector of expected returns, give me a portfolio" library — useful as a post-processing layer for any LLM trading agent whose output is *which assets to hold*. Be honest that the optimiser inherits all of the bias of the expected-return estimates fed to it. |
+| [invinoveritas](https://api.babyblueviper.com) | tool | 2026 | An independent pre-trade verification endpoint (/review) that returns an approve / approve-with-concerns / reject verdict for a proposed agent action, then publishes a signed, Nostr-anchored proof and a public ledger of past verdicts against their eventual outcomes. | Not a trading strategy or signal generator — it makes no forward-return predictions and should not be read as alpha. The verdict logic is closer to a security / state-consistency / risk-consistency scan than a profitability oracle, and its own live dogfood account and public ledger are small and young (checked 2026-07-02) — a real, growing track record, not an established one. Independently checkable via a free `/verify-proof` call against a signed verdict, rather than taken on trust. |
 | [vectorbt](https://github.com/polakowo/vectorbt) | tool | 2019 | Vectorised backtesting library built on NumPy, pandas, and Numba. Runs many parameter combinations in parallel without Python bar-loops, making it suited to grid sweeps over signal- and risk-parameter spaces. | Excellent for research-phase throughput; the same speed is also what makes it dangerous — running 10⁵ strategy variants without a multiple-testing correction is exactly the workflow that *Probability of Backtest Overfitting* warns against. Pair with Deflated Sharpe. |
 
 ## Market-Simulation Environments
@@ -168,3 +170,19 @@ The single most useful section of this repo. A self-contained guide to evaluatin
 
 → **Read [`docs/methodology.md`](docs/methodology.md).**
 
+---
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). Every entry must include a verification source and a factual, non-promotional honest note. The PR will be auto-checked by the link-checker and entry validator.
+
+---
+
+## Curator & License
+
+Curated by **Betty Guo (Dongxin Guo)**, final-year CS PhD candidate, University of Hong Kong; advised by Prof. Siu-Ming Yiu. ORCID [0009-0000-2388-1072](https://orcid.org/0009-0000-2388-1072). GitHub [@bettyguo](https://github.com/bettyguo).
+
+- List content (this README, `entries/`, `docs/`) — CC0 1.0. See [`LICENSE-list`](LICENSE-list).
+- Tooling code (`tools/`, `.github/`) — MIT. See [`LICENSE`](LICENSE).
+
+> [![Star History Chart](https://api.star-history.com/svg?repos=bettyguo/awesome-llm-trading-agents&type=Date)](https://star-history.com/#bettyguo/awesome-llm-trading-agents&Date)

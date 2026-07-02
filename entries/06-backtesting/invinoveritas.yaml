@@ -1,0 +1,32 @@
+slug: invinoveritas
+title: invinoveritas
+type: tool
+category: 06-backtesting
+subcategory: pre-trade-verification
+url: https://api.babyblueviper.com
+maintainer: babyblueviper1
+year: 2026
+description: >-
+  An independent pre-trade verification endpoint (/review) that returns an approve /
+  approve-with-concerns / reject verdict for a proposed agent action, then publishes a
+  signed, Nostr-anchored proof and a public ledger of past verdicts against their eventual
+  outcomes.
+note: >-
+  Not a trading strategy or signal generator — it makes no forward-return predictions and
+  should not be read as alpha. The verdict logic is closer to a security / state-consistency
+  / risk-consistency scan than a profitability oracle, and its own live dogfood account and
+  public ledger are small and young (checked 2026-07-02) — a real, growing track record, not
+  an established one. Independently checkable via a free `/verify-proof` call against a
+  signed verdict, rather than taken on trust.
+tags:
+  - verification
+  - pre-trade
+  - risk
+  - x402
+  - recomputable
+verification:
+  status: verified
+  sources:
+    - https://api.babyblueviper.com
+    - https://github.com/babyblueviper1/invinoveritas
+  verified_on: "2026-07-02"
